@@ -1,0 +1,43 @@
+body{
+
+}
+
+
+#header{
+  display:inline-flex;
+  background-color: white;
+  width: 100%;                                                                  /*This is used to fill the entire width of the screen*/
+}
+
+nav{
+  /*To get the underline like a link use the following:
+  border-bottom: 1px solid #466995;
+  */
+}
+
+nav a{
+  text-decoration: none;
+}
+
+.logo {
+  width: 100%;                                                                  /*This is used to fill the entire width of the screen*/
+  border: 5px solid green;
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo .name{
+  margin: 10px;
+}
+
+nav{
+  width: 100%;                                                                  /*This is used to fill the entire width of the screen*/
+  border: 5px solid blue;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li{
+  margin: 0px 15px;
+  display: inline-flex;
+}
