@@ -1,43 +1,38 @@
-body{
-
-}
-
-
 #header{
-  display:inline-flex;
-  background-color: white;
-  width: 100%;                                                                  /*This is used to fill the entire width of the screen*/
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid black;
 }
 
-nav{
-  /*To get the underline like a link use the following:
-  border-bottom: 1px solid #466995;
-  */
-}
-
-nav a{
-  text-decoration: none;
-}
-
-.logo {
-  width: 100%;                                                                  /*This is used to fill the entire width of the screen*/
-  border: 5px solid green;
-  display: inline-flex;
-  align-items: center;
+.logo{
+  width: 100%;                                                                  /*Must specify the box dimensions*/
+  border: 2px solid red;
+  display: flex;
+  align-items: center;                                                          /*Align the contents with respect to the vertical axis*/
 }
 
 .logo .name{
-  margin: 10px;
+  margin: 15px;
+  color: MediumAquamarine;
 }
 
 nav{
-  width: 100%;                                                                  /*This is used to fill the entire width of the screen*/
-  border: 5px solid blue;
-  display: flex;
-  justify-content: flex-end;
+  width: 40%;                                                                   /*Box will occupy 40% of the avaiable space*/
+  border: 2px solid blue;
+  display: flex;                                                                /*Activate the flex box standards*/
+  align-items: center;                                                          /*Align the contents with respect to the vertical axis*/
+  justify-content: space-around;                                                /*Space the contents equally within the box*/
 }
 
 nav li{
-  margin: 0px 15px;
-  display: inline-flex;
+  margin: 0px 10px;
+  display: inline-flex;                                                         /*Pivot the list*/
+  flex-shrink: 2;
+}
+
+nav a{
+  color: black;                                                                 /*Change the link underline color*/
 }
